@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane fx:id="principal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafeteria.controllers.CafeteriaController">
+   <ImageView fitHeight="600.0" fitWidth="803.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@assets/background.png" />
+   </ImageView>
+   <Circle fx:id="waiterDeliveryDrive" fill="#1fffe3" layoutX="638.0" layoutY="143.0" radius="33.0" />
+   <Circle fill="DODGERBLUE" layoutX="90.0" layoutY="76.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="waiterDelivery" fill="#c31fff" layoutX="352.0" layoutY="225.0" radius="33.0" />
+   <Circle fx:id="deliverHouseZone" fill="#1d8cf41f" layoutX="108.0" layoutY="251.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="houseZone" fill="#1d8cf41f" layoutX="257.0" layoutY="251.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="deliveryZone" fill="#1d8cf41f" layoutX="489.0" layoutY="251.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="driveZone" fill="#1d8cf41f" layoutX="671.0" layoutY="158.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="kitchenZone" fill="#1d8cf41f" layoutX="593.0" layoutY="58.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="#1d8cf41f" layoutX="48.0" layoutY="44.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="#1d8cf41f" layoutX="215.0" layoutY="44.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="deliverHouseClientZone" fill="#1d8cf41f" layoutX="108.0" layoutY="293.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="houseClientZone" fill="#1d8cf41f" layoutX="257.0" layoutY="293.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="deliveryClientZone" fill="#1d8cf41f" layoutX="489.0" layoutY="293.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="driveClientZone" fill="#1d8cf41f" layoutX="736.0" layoutY="158.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="exitDriveClientZone" fill="#1d8cf41f" layoutX="743.0" layoutY="7.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="unknownZone" fill="#1d8cf41f" layoutX="593.0" layoutY="-50.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+</Pane>
